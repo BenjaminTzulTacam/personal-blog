@@ -3,6 +3,15 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.home-body {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -10,10 +19,9 @@ body {
     right: 0;
 }
 
-a {
-    text-decoration: none;
-    display: inline;
-    color: black;
+.home-body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -117,5 +125,95 @@ nav .profile-link a{
 .home-main section button a {
     font-weight: 700;
     font-size: 18px;
+}
+
+/* =========Creadno estilos a los blogs ========= */
+
+.blogs-main {
+    display: grid;
+    font-family: 'ROBOTO mono' , monospace;
+}
+
+.blogs-main-container {
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
+
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-news-img-container {
+    grid-column: 1;
+}
+
+.blogs-news-img-container img {
+    width: 80%;
+}
+
+.blogs-news-info-container {
+    grid-column: 2;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+    font-family: 'ROBOTO mono' , monospace;
+    font-weight: 700px;
+}
+
+.blogs-posts-container {
+    padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3 {
+    text-align: center;
+    border-bottom: 1px solid #cdd2da;
+}
+
+.blogs-button {
+    background-color: #47cfac;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+
+/* ==== style list posts ===== */
+
+/* Nombrar las areas */
+
+.post-container-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.blogs-posts-container .post-container {
+    max-width: 80%;
+}
+
+.blogs-posts-container .post-container p {
+    margin-bottom: 35px;
+}
+
+.blogs-posts-container .post-container img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+    border-top: 35px solid #47cfac;
+}
+
+footer p {
+    color: white;
+    margin-top: 30px;
+    padding-left: 35px;
 }
 
