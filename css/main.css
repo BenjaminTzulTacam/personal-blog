@@ -164,7 +164,7 @@ nav .profile-link a{
 }
 
 .blogs-posts-container {
-    padding: 0 50px 40px;
+    padding: 0 50px 20;
 }
 
 .blogs-posts-container h3 {
@@ -190,10 +190,13 @@ nav .profile-link a{
     justify-items: center;
     align-items: center;
     gap: 20px;
+    max-width: 980px;
+    margin: auto;
 }
 
 .blogs-posts-container .post-container {
     max-width: 80%;
+    padding-bottom: 20px;
 }
 
 .blogs-posts-container .post-container p {
@@ -206,7 +209,7 @@ nav .profile-link a{
 
 footer {
     width: 100%;
-    height: 80px;
+    height: 90px;
     background-color: #22272d;
     border-top: 35px solid #47cfac;
 }
