@@ -105,7 +105,7 @@ nav .profile-link a{
 .home-main-text {
     display: grid;
     align-self: flex-end;
-    font-family: var(--letters);
+    /* font-family: var(--letters); */
     font-size: 30px;
     font-weight: 700px;
     letter-spacing: 10px;
@@ -163,7 +163,7 @@ nav .profile-link a{
 
 .blogs-news-info-container p {
     margin-bottom: 35px;
-    font-family: var(--letters);
+    /* font-family: var(--letters); */
     font-weight: 700px;
 }
 
@@ -200,7 +200,7 @@ nav .profile-link a{
 }
 
 .blogs-posts-container .post-container {
-    max-width: 80%;
+    max-width: 90%;
     padding-bottom: 20px;
 }
 
@@ -249,7 +249,7 @@ footer p {
 }
 
 .blogpost-main-container article p {
-    font-family: var(--letters);
+    /* font-family: var(--letters); */
     font-weight: 700px;
 }
 
@@ -288,7 +288,6 @@ footer p {
     background-color: #e6e9ed;
     margin-bottom: 50px;
     /*font-family: 'ROBOTO mono' , monospace;*/
-    font-family: var(--letters);
     font-weight: 700px;
 }
 
